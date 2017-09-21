@@ -1,8 +1,8 @@
 function a() {document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + "px";}window.addEventListener("resize", a, !1);a();
 require.config({
 	paths:{
-		"jquery":["jquery", "jquery"],
-		"swiper":"swiper.min"
+                "jquery":["http://apps.bdimg.com/libs/jquery/1.10.2/jquery.min", "jquery"],
+		"swiper":"http://m.buu-cn.com/buuportal/mportal/js/swiper.min"
 	}
 });
 
